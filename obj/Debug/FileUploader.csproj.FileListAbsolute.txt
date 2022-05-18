@@ -1,0 +1,22 @@
+C:\Users\user\source\repos\FileUploader\FileUploader\bin\Debug\FileUploader.exe.config
+C:\Users\user\source\repos\FileUploader\FileUploader\bin\Debug\FileUploader.exe
+C:\Users\user\source\repos\FileUploader\FileUploader\bin\Debug\FileUploader.pdb
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Debug\FileUploader.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Debug\FileUploader.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Debug\FileUploader.Properties.Resources.resources
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Debug\FileUploader.csproj.GenerateResource.cache
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Debug\FileUploader.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Debug\FileUploader.exe
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Debug\FileUploader.pdb
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Debug\FileUploader.FileUploader.resources
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\bin\Debug\FileUploader.exe.config
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\bin\Debug\FileUploader.exe
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\bin\Debug\FileUploader.pdb
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Debug\FileUploader.csproj.AssemblyReference.cache
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Debug\FileUploader.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Debug\FileUploader.FileUploader.resources
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Debug\FileUploader.Properties.Resources.resources
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Debug\FileUploader.csproj.GenerateResource.cache
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Debug\FileUploader.csproj.CoreCompileInputs.cache
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Debug\FileUploader.exe
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Debug\FileUploader.pdb

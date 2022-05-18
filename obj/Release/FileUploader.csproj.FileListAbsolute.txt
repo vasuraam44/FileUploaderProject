@@ -1,0 +1,22 @@
+C:\Users\user\source\repos\FileUploader\FileUploader\bin\Release\FileUploader.exe.config
+C:\Users\user\source\repos\FileUploader\FileUploader\bin\Release\FileUploader.exe
+C:\Users\user\source\repos\FileUploader\FileUploader\bin\Release\FileUploader.pdb
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Release\FileUploader.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Release\FileUploader.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Release\FileUploader.FileUploader.resources
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Release\FileUploader.Properties.Resources.resources
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Release\FileUploader.csproj.GenerateResource.cache
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Release\FileUploader.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Release\FileUploader.exe
+C:\Users\user\source\repos\FileUploader\FileUploader\obj\Release\FileUploader.pdb
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\bin\Release\FileUploader.exe.config
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\bin\Release\FileUploader.exe
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\bin\Release\FileUploader.pdb
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Release\FileUploader.csproj.AssemblyReference.cache
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Release\FileUploader.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Release\FileUploader.FileUploader.resources
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Release\FileUploader.Properties.Resources.resources
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Release\FileUploader.csproj.GenerateResource.cache
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Release\FileUploader.csproj.CoreCompileInputs.cache
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Release\FileUploader.exe
+C:\Users\user\source\EVOLUTE PROJECT\FileUploader\obj\Release\FileUploader.pdb
