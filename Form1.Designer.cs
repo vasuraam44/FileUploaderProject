@@ -41,10 +41,11 @@
             this.sendbtn = new System.Windows.Forms.Button();
             this.Filebtn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
+            this.WithoutAdbbackgroundWorker = new System.ComponentModel.BackgroundWorker();
             this.AdbcheckBox = new System.Windows.Forms.CheckBox();
             this.filecheckBox = new System.Windows.Forms.CheckBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.WithAdbbackgroundWorker = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // textBox1
@@ -114,6 +115,12 @@
             // 
             // textBox2
             // 
+            this.textBox2.AutoCompleteCustomSource.AddRange(new string[] {
+            "192.168.1.180",
+            "172.30.144.1",
+            "192.168.210.251",
+            "192.168.183.165"});
+            this.textBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.textBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(182, 118);
@@ -195,24 +202,23 @@
             this.label3.TabIndex = 11;
             this.label3.Text = "Progress";
             // 
-            // backgroundWorker2
+            // WithoutAdbbackgroundWorker
             // 
-            this.backgroundWorker2.WorkerReportsProgress = true;
-            this.backgroundWorker2.WorkerSupportsCancellation = true;
-            this.backgroundWorker2.DoWork += new System.ComponentModel.DoWorkEventHandler(this.BackgroundWorker2_DoWork);
-            this.backgroundWorker2.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.BackgroundWorker2_ProgressChanged);
-            this.backgroundWorker2.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.BackgroundWorker2_RunWorkerCompleted);
+            this.WithoutAdbbackgroundWorker.WorkerReportsProgress = true;
+            this.WithoutAdbbackgroundWorker.WorkerSupportsCancellation = true;
+            this.WithoutAdbbackgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.WithoutAdbbackgroundWorker_DoWork);
+            this.WithoutAdbbackgroundWorker.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.WithoutAdbbackgroundWorker_ProgressChanged);
+            this.WithoutAdbbackgroundWorker.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.WithoutAdbbackgroundWorker_RunWorkerCompleted);
             // 
             // AdbcheckBox
             // 
             this.AdbcheckBox.AutoSize = true;
             this.AdbcheckBox.Location = new System.Drawing.Point(158, 382);
             this.AdbcheckBox.Name = "AdbcheckBox";
-            this.AdbcheckBox.Size = new System.Drawing.Size(77, 17);
+            this.AdbcheckBox.Size = new System.Drawing.Size(48, 17);
             this.AdbcheckBox.TabIndex = 12;
             this.AdbcheckBox.Text = "ADB";
             this.AdbcheckBox.UseVisualStyleBackColor = true;
-           // this.AdbcheckBox.CheckedChanged += new System.EventHandler(this.AdbcheckBox_CheckedChanged);
             // 
             // filecheckBox
             // 
@@ -240,6 +246,14 @@
             this.comboBox2.TabIndex = 14;
             this.comboBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ComboBox2_KeyPress);
             this.comboBox2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ComboBox2_MouseClick);
+            // 
+            // WithAdbbackgroundWorker
+            // 
+            this.WithAdbbackgroundWorker.WorkerReportsProgress = true;
+            this.WithAdbbackgroundWorker.WorkerSupportsCancellation = true;
+            this.WithAdbbackgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.WithAdbBackgroundWorker_DoWork);
+            this.WithAdbbackgroundWorker.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.WithAdbBackgroundWorker_ProgressChanged);
+            this.WithAdbbackgroundWorker.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.WithAdbBackgroundWorker_RunWorkerCompleted);
             // 
             // FileUploader
             // 
@@ -286,10 +300,11 @@
         private System.Windows.Forms.Label percentage;
         private System.Windows.Forms.Label note;
         private System.Windows.Forms.Label label3;
-        public System.ComponentModel.BackgroundWorker backgroundWorker2;
+        public System.ComponentModel.BackgroundWorker WithoutAdbbackgroundWorker;
         private System.Windows.Forms.CheckBox AdbcheckBox;
         private System.Windows.Forms.CheckBox filecheckBox;
         private System.Windows.Forms.ComboBox comboBox2;
+        public System.ComponentModel.BackgroundWorker WithAdbbackgroundWorker;
     }
 }
 
