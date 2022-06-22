@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FileUploader));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.FilePathtextBox1 = new System.Windows.Forms.TextBox();
             this.cancelbtn = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.PortcomboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.IPtextBox2 = new System.Windows.Forms.TextBox();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.percentage = new System.Windows.Forms.Label();
             this.note = new System.Windows.Forms.Label();
@@ -48,18 +48,18 @@
             this.WithAdbbackgroundWorker = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
-            // textBox1
+            // FilePathtextBox1
             // 
-            this.textBox1.AllowDrop = true;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(182, 61);
-            this.textBox1.MinimumSize = new System.Drawing.Size(4, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(281, 30);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.TextBox1_DragDrop);
-            this.textBox1.DragOver += new System.Windows.Forms.DragEventHandler(this.TextBox1_DragOver);
-            // 
+            this.FilePathtextBox1.AllowDrop = true;
+            this.FilePathtextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FilePathtextBox1.Location = new System.Drawing.Point(182, 61);
+            this.FilePathtextBox1.MinimumSize = new System.Drawing.Size(4, 30);
+            this.FilePathtextBox1.Name = "FilePathtextBox1";
+            this.FilePathtextBox1.Size = new System.Drawing.Size(281, 30);
+            this.FilePathtextBox1.TabIndex = 1;
+            this.FilePathtextBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.FilePathtextBox1_DragDrop);
+            this.FilePathtextBox1.DragOver += new System.Windows.Forms.DragEventHandler(this.FilePathtextBox1_DragOver);
+            //
             // cancelbtn
             // 
             this.cancelbtn.BackgroundImage = global::FileUploader.Properties.Resources.FileSelect;
@@ -75,21 +75,21 @@
             this.cancelbtn.UseVisualStyleBackColor = true;
             this.cancelbtn.Click += new System.EventHandler(this.Cancelbtn_Click);
             // 
-            // comboBox1
+            // PortcomboBox1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.PortcomboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PortcomboBox1.FormattingEnabled = true;
+            this.PortcomboBox1.Items.AddRange(new object[] {
             "8080",
             "8081",
             "8082",
             "55052",
             "55053"});
-            this.comboBox1.Location = new System.Drawing.Point(182, 187);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(169, 28);
-            this.comboBox1.TabIndex = 3;
-            this.comboBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ComboBox1_MouseClick);
+            this.PortcomboBox1.Location = new System.Drawing.Point(182, 187);
+            this.PortcomboBox1.Name = "PortcomboBox1";
+            this.PortcomboBox1.Size = new System.Drawing.Size(169, 28);
+            this.PortcomboBox1.TabIndex = 3;
+            this.PortcomboBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ComboBox1_MouseClick);
             // 
             // label1
             // 
@@ -113,22 +113,22 @@
             this.label2.Text = "IP";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // textBox2
+            // IPtextBox2
             // 
-            this.textBox2.AutoCompleteCustomSource.AddRange(new string[] {
+            this.IPtextBox2.AutoCompleteCustomSource.AddRange(new string[] {
             "192.168.1.180",
             "172.30.144.1",
             "192.168.210.251",
             "192.168.183.165"});
-            this.textBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.textBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(182, 118);
-            this.textBox2.MinimumSize = new System.Drawing.Size(4, 30);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(281, 30);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Textbox2_MouseClick);
+            this.IPtextBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.IPtextBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.IPtextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IPtextBox2.Location = new System.Drawing.Point(182, 118);
+            this.IPtextBox2.MinimumSize = new System.Drawing.Size(4, 30);
+            this.IPtextBox2.Name = "IPtextBox2";
+            this.IPtextBox2.Size = new System.Drawing.Size(281, 30);
+            this.IPtextBox2.TabIndex = 2;
+            this.IPtextBox2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Textbox2_MouseClick);
             // 
             // progressBar1
             // 
@@ -266,13 +266,13 @@
             this.Controls.Add(this.note);
             this.Controls.Add(this.percentage);
             this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.IPtextBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.PortcomboBox1);
             this.Controls.Add(this.cancelbtn);
             this.Controls.Add(this.sendbtn);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.FilePathtextBox1);
             this.Controls.Add(this.Filebtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -289,13 +289,13 @@
         #endregion
 
         private System.Windows.Forms.Button Filebtn;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox FilePathtextBox1;
         private System.Windows.Forms.Button sendbtn;
         private System.Windows.Forms.Button cancelbtn;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox PortcomboBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox IPtextBox2;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label percentage;
         private System.Windows.Forms.Label note;

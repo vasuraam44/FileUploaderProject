@@ -1,8 +1,9 @@
 @echo off
 Set arg1=%1
-echo %arg1%
+title ADB File Upload
 echo Don't Close Console.
-echo Please wait file uploading started..
+echo Your Selected file %arg1% 
+echo Please wait Started Uploading...
 adb push %arg1% /sdcard 
-start 
+start
 pause
